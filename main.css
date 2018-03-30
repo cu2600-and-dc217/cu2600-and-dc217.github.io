@@ -1,8 +1,35 @@
+body {
+    background-image: URL("noisy-texture-100x100-o14.000000000000002-d10-c-030102-t0.png");
+    color: white;
+    Font-family: Times; 
+}
+img {
+    width: 250px;
+    height: 300px;
+}
+
+h2 {
+    text-shadow: 2px 2px #9c9c9c;
+}
+
+h3 {
+    color: orange;
+}
+
+h4 {
+    text-align: center;
+}
+
 a {
     color: orange;
 }
 
-td {
+table {
+    color: #FFFFFF; 
+    width: 100%;
+    border: 2px solid gray;
+}
+
+p {
     text-align: center;
-    vertical-align: center;
 }
