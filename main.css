@@ -3,6 +3,9 @@ body {
     color: white;
     Font-family: Times; 
 }
+img {
+    height: 300px;
+}
 h2 {
     text-shadow: 2px 2px #9c9c9c;
 }
