@@ -1,28 +1,45 @@
 body {
-    background-color: black;
-    color: white;
-    Font-family: Times; 
-}
-img {
-    height: 300px;
-}
-h3 {
-    color: orange;
+	background-color: black;
+	color: white;
+	font-family: Times;
 }
 
-h4 {
-    text-align: center;
+body * {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img {
+	display: block;
+	height: 300px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-align: center;
+}
+
+h2 {
+	color: orange;
 }
 
 a {
-    color: orange;
+	color: orange;
 }
 
 table {
-    color: #FFFFFF; 
-    border: 2px solid gray;
+	border: 1pt solid gray;
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 2pt;
+}
+
+table.ruled th, table.ruled td {
+	border-bottom: 1pt solid gray;
 }
 
 p {
-    text-align: center;
+	text-align: center;
+	max-width: 80ex;
 }
